@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b505bbf8-82b7-4bbc-b9b7-bbe1c80ec696" name="Changes" comment="Implementação das entidades, enums, segurança e organização dos pacotes.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+    <list default="true" id="b505bbf8-82b7-4bbc-b9b7-bbe1c80ec696" name="Changes" comment="Implementação dos repositórios e configuração do banco de testes H2.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/service/EmpresaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/service/FuncionarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/service/LancamentoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/EmpresaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/EmpresaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/FuncionarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/FuncionarioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/LancamentoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/LancamentoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/frinfo/pontointeligente/PontointeligenteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/frinfo/pontointeligente/PontointeligenteApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,8 @@
     <configuration name="PontointeligenteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pontointeligente" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.frinfo.pontointeligente.PontointeligenteApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634102350155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementação dos repositórios e configuração do banco de testes H2.">
+      <created>1634103134395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634103134395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementação conexão com o banco de dados mysql" />
     <MESSAGE value="Implementação das entidades, enums, segurança e organização dos pacotes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação das entidades, enums, segurança e organização dos pacotes." />
+    <MESSAGE value="Implementação dos repositórios e configuração do banco de testes H2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação dos repositórios e configuração do banco de testes H2." />
   </component>
 </project>
