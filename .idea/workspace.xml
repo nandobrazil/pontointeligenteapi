@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b505bbf8-82b7-4bbc-b9b7-bbe1c80ec696" name="Changes" comment="Implementação conexão com o banco de dados mysql">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/enumerator/PerfilEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/enumerator/TipoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/model/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/model/Lancamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/mysql/V1__init.sql" afterDir="false" />
+    <list default="true" id="b505bbf8-82b7-4bbc-b9b7-bbe1c80ec696" name="Changes" comment="Implementação das entidades, enums, segurança e organização dos pacotes.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontointeligente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pontointeligente.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/EmpresaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/EmpresaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/FuncionarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/FuncionarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/LancamentoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/frinfo/pontointeligente/repository/LancamentoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634099049977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementação das entidades, enums, segurança e organização dos pacotes.">
+      <created>1634102350155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634102350155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementação conexão com o banco de dados mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação conexão com o banco de dados mysql" />
+    <MESSAGE value="Implementação das entidades, enums, segurança e organização dos pacotes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação das entidades, enums, segurança e organização dos pacotes." />
   </component>
 </project>
